@@ -87,7 +87,7 @@ export function formatGitHubIssueBody({
     .filter(Boolean)
     .join('\n\n');
 
-  return `## Summary
+  const body = `## Summary
 
 ${cleaned.summary}
 
